@@ -1,0 +1,11 @@
+###
+POST http://localhost:9000/api/storedata HTTP/1.1
+Content-Type: application/json
+
+{
+  "autorizador": "Cd",
+  "estado": "imagens/bola_verde_P.png"
+}
+
+###
+GET http://localhost:9000/api/storeddata HTTP/1.1
